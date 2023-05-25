@@ -1,0 +1,469 @@
+.all-container{
+    /* position: relative; */
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 505px;
+}
+
+
+
+/* ///////////// */
+
+.kanan-container{
+    /* border: 1px solid blue; */
+    /* width: 960px; */
+    width: 1200px;
+    height: 510px;
+    margin-left: 30px;
+    top: 0;
+    margin-top: 0px;
+}
+
+.big-title-box{
+    /* border: 1px solid red; */
+    height: 30px;
+    top: 0;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.big-title{
+    margin-top: 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    color: #19456B;
+
+}
+
+.title-opacity{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    /* line-height: 34px; */
+
+    color: rgba(25, 69, 107, 0.71);
+
+}
+
+.option-display-box{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-bottom: 7px;
+}
+
+.option-display-box button{
+    width: 180px;
+    height: 30px;
+    background: #FFFFFF;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight:600;
+    color: #19456B;
+    /* border: 1px solid #19456B ; */
+}
+
+.plot-display-box button{
+    width: 150px;
+    height: 30px;
+    background: #FFFFFF;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight:600;
+    color: #19456B;
+    /* border: 1px solid #19456B ; */
+}
+
+/* .plot-display-box button.active  {
+    width: 200px;
+} */
+
+button.active  {
+    /* width: 180px; */
+    /* height: 30px; */
+    background: #19456B;
+    border: 1px solid #19456B ;
+}
+
+.time-option-box button.active{
+    width: 100px;
+    height: 30px;
+    background: #19456B;
+}
+
+/* .time-option-box button{
+    width: 200px;
+    height: 30px;
+    background: #19456B;
+    border: 1px solid red ;
+} */
+
+
+
+button.active>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.option-display-1{
+    width: 180px;
+    height: 30px;
+    background: #19456B;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #19456B ;
+}
+
+.option-display-2{
+    width: 180px;
+    height: 30px;
+    background: #FFFFFF;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+.text-display-1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.text-display-2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #19456B;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.time-option-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 0px;
+}
+
+.time-allyear{
+    width: 80px;
+    height: 25px;
+    background: #19456B;
+    border: 1px solid #19456B ;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.text-allyear{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.time-month{
+    margin-top: 2px;
+    width: 93px;
+    height: 24px;
+    background: #ffffff;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    color: #19456B;;
+    font-weight: bolder;
+}
+/*
+.time-month select{
+    margin-top: 2px;
+    width: 93px;
+    height: 24px;
+    background: #ffffff;
+    box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8);
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* .time-month:focus{
+    width: 80px;
+    height: 25px;
+    background: #19456B;
+    box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8);
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    margin-right: 3px;
+} */
+
+/* .select-items.text-allyear:focus{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+} */
+
+.month{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #19456B;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.time-year{
+    margin-top: 2px;
+    width: 80px;
+    height: 24px;
+    background: #ffffff;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    color: #19456B;;
+    font-weight: bolder;
+
+
+
+}
+
+select .time-year{
+    text-align-last:left;
+    padding-left: 2px;
+    direction:ltr;
+}
+
+/* .select-option-month{
+    text-align: left;
+} */
+
+.year{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #19456B;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.strip{
+    margin-top: 2px;
+}
+
+.dropdown{
+    margin-top: 100px;
+    color: red;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding-top: 20px;
+    /* z-index: 2; */
+}
+
+.barchart-option {
+    margin-top: -40px;
+    left: 0;
+    width: 90px;
+    height: 24px;
+    background: #ffffff;
+    /* font-family: 'Ubuntu';   */
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 12   px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: #19456B;
+    font-weight: bolder;
+    font-size: 14px;
+    text-align: left;
+}
+
+select .barchart-option {
+    /* margin-top: 2px; */
+    left: 0;
+    width: 100px;
+    height: 24px;
+    background: #ffffff;
+    /* font-family: 'Ubuntu';   */
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 200px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: #19456B;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: left;
+}
+
+option .barchart-option {
+    /* margin-top: 2px; */
+    left: 0;
+    width: 100px;
+    height: 24px;
+    background: #ffffff;
+    /* font-family: 'Ubuntu';   */
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: #19456B;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: left;
+    border:none;
+}
+
+select{
+    text-align-last:center;
+    padding-left: 2px;
+    direction:ltr;
+}
+
+option{
+    border: none;
+    outline: none;
+    /* font-size: 12px; */
+}
+
+select-selected{
+    border: none;
+    outline: none;
+    font-size: 10px;
+}
+
+.box-content{
+    border: 1.5px solid #19456B;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center ;
+    height: 336px;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.gambar{
+    width: 500px;
+    height: 350px;
+}
+
+.plot-display-box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 7px;
+}
+
+.plot-1{
+    width: 130px;
+    height: 25px;
+    background: #19456B;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid #19456B ;
+}
+
+.plot-2{
+    width: 130px;
+    height: 25px;
+    background: #FFFFFF;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+.plot-3{
+    width: 130px;
+    height: 25px;
+    background: #FFFFFF;
+    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+}
+
+.plot-display-1{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.plot-display-2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #19456B;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.plot-display-3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #19456B;
+    text-align: center;
+    margin-top: 3px;
+}

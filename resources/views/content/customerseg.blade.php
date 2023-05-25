@@ -1,0 +1,151 @@
+@section('css')
+    <link rel="stylesheet" href="css/customerseg.css">
+@endsection
+
+@extends('master')
+
+@section('title', 'Customer Segmentation Page')
+
+@section('content')
+
+    <div class="all-container">
+
+        @include('partials.navbar')
+
+        <div class="kanan-container">
+            <div class="big-title-box">
+                {{-- <span class="title-opacity">| All Year</span> --}}
+                <h3 class="big-title">Show Chart </h3>
+            </div>
+
+            <div class="option-display-box">
+                <button class="active">
+                    <span>Recency</span>
+                </button>
+                <button>
+                    <span>Frequency</span>
+                </button>
+                <button>
+                    <span>Monetery</span>
+                </button>
+                <button>
+                    <span>RFM 3D Log</span>
+                </button>
+                <button>
+                    <span>Show Best Cluster</span>
+                </button>
+            </div>
+
+
+            {{-- <div class="option-display-box">
+                <button class="option-display-1">
+                    <h4 class="text-display-1">Recency</h4>
+                </button>
+                <button class="option-display-2">
+                    <h3 class="text-display-2">Frequency</h3>
+                </button>
+                <button class="option-display-2">
+                    <h4 class="text-display-2">Monetery</h4>
+                </button>
+                <button class="option-display-2">
+                    <h4 class="text-display-2">RFM 3D Log</h4>
+                </button>
+                <button class="option-display-2">
+                    <h4 class="text-display-2">Show Best Cluster</h4>
+                </button>
+            </div> --}}
+
+            <div class="plot-display-box">
+                <button class="active-1">
+                    <span>Distribution Plot</span>
+                </button>
+                <button>
+                    <span>Probability Plot</span>
+                </button>
+                <button>
+                    <span>Log Plot</span>
+                </button>
+
+                {{-- <button class="plot-1">
+                    <h4 class="plot-display-1">Distribution Plot</h4>
+                </button>
+                <button class="plot-2">
+                    <h4 class="plot-display-2">Probability Plot</h4>
+                </button>
+                <button class="plot-3">
+                    <h4 class="plot-display-3">Log Plot</h4>
+                </button> --}}
+
+            </div>
+
+            <div class="time-option-box">
+                <button class="time-allyear active">
+                    <span>All Year</span>
+                    {{-- <h4 class="text-allyear">All Year</h4> --}}
+                </button>
+                <span class="span-strip">
+                    <h3 class="strip">|</h3>
+                </span>
+                <span class="option-month">
+                    <select name="month" id="month" class="time-month">
+                        <option selected value="0">Month</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </span>
+
+                <span class="option-year">
+                    <select name="month" id="month" class="time-year">
+                        <option selected value="0">Year</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                    </select>
+                </span>
+
+                <!-- <div class="time-month">
+                    <h4 class="month">Month<span class="dropdown"><img src="assets/dropdown.png" alt=""></span></h4>
+
+                </div> -->
+                <!-- <div class="time-year">
+                    <h4 class="year">Year<span class="dropdown"><img src="assets/dropdown.png" alt=""></span></h4>
+                </div> -->
+            </div>
+
+            <div class="box-barchart">
+                <select name="barchart" id="barchart" class="barchart-option">
+                    <option selected value="0">Bar Chart</option>
+                    <option value="1">Pie Chart</option>
+                    <option value="2">Line Chart</option>
+                    <option value="2">Scatter Plot Chart</option>
+                </select>
+            </div>
+
+            <div class="box-content">
+                <div class="content">
+                    <div class="image-content" >
+                        {{-- <img src="assets/image/gambar.png" class="gambar" alt=""> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+@endsection
+
+
+@section('js')
+<script type="text/javascript" defer src="{{URL::asset('js/customerseg.js')}}"></script>
+
+@endsection
+

@@ -14,10 +14,30 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
+// Route::get('/', function () {
+//     return view('tes');
+// });
+
+// Auth::routes();
+
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Route::get('/', function () {
-    return view('tes');
+    return view('opening');
 });
 
-Auth::routes();
+Route::get('/opening', function () {
+    return view('opening');
+})->name('opening');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/showchart', function () {
+    return view('content.showchart');
+})->name('showchart');
+
+Route::get('/customerseg', function () {
+    return view('content.customerseg');
+})->name('customerseg');
+
+Route::get('/marketbasket', function () {
+    return view('content.marketbasket');
+})->name('marketbasket');
