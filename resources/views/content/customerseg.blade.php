@@ -56,7 +56,7 @@
             </div> --}}
 
             <div class="plot-display-box">
-                <button class="active-1">
+                <button class="active-2">
                     <span>Distribution Plot</span>
                 </button>
                 <button>
