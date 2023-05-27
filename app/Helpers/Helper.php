@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 function set_active($route)
 {
-    $active = 'active';
+    $active = 'active3';
 
     if(is_array($route)) {
         foreach ($route as $r) {
@@ -16,5 +16,5 @@ function set_active($route)
         if(Route::is($route)) {
             return $active;
         }
-    }   
+    }
 }

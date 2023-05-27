@@ -97,22 +97,49 @@ button.active  {
     border: 1px solid #19456B ;
 }
 
-.time-option-box button.active{
-    width: 100px;
-    height: 30px;
+button.active1  {
+    /* width: 180px; */
+    /* height: 30px; */
     background: #19456B;
+    border: 1px solid #19456B ;
 }
 
-/* .time-option-box button{
-    width: 200px;
-    height: 30px;
+button.active2  {
+    /* width: 180px; */
+    /* height: 30px; */
     background: #19456B;
-    border: 1px solid red ;
-} */
+    border: 1px solid #19456B ;
+}
+
+.time-option-box button.active2 {
+    width: 100px;
+    height: 27px;
+    background: #19456B;
+}
 
 
 
 button.active>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+button.active1>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+button.active2>span {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 600;
@@ -171,12 +198,10 @@ button.active>span {
     margin-bottom: 0px;
 }
 
-.time-allyear{
+/* .time-allyear{
     width: 80px;
     height: 25px;
     background: #19456B;
-    border: 1px solid #19456B ;
-    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
     border-radius: 45px;
     text-align: center;
     align-items: center;
@@ -191,21 +216,20 @@ button.active>span {
     color: #FFFFFF;
     text-align: center;
     margin-top: 3px;
-}
+} */
 
-.time-month{
+/* .time-month{
     margin-top: 2px;
     width: 93px;
     height: 24px;
     background: #ffffff;
-    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
     border: 2px solid #19456B ;
     border-radius: 45px;
     text-align: center;
     align-items: center;
     color: #19456B;;
     font-weight: bolder;
-}
+} */
 /*
 .time-month select{
     margin-top: 2px;
@@ -241,7 +265,7 @@ button.active>span {
     margin-top: 5px;
 } */
 
-.month{
+/* .month{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 600;
@@ -256,7 +280,6 @@ button.active>span {
     width: 80px;
     height: 24px;
     background: #ffffff;
-    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
     border: 2px solid #19456B ;
     border-radius: 45px;
     text-align: center;
@@ -266,19 +289,19 @@ button.active>span {
 
 
 
-}
+} */
 
-select .time-year{
+/* select .time-year{
     text-align-last:left;
     padding-left: 2px;
     direction:ltr;
-}
+} */
 
 /* .select-option-month{
     text-align: left;
 } */
 
-.year{
+/* .year{
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 600;
@@ -286,7 +309,7 @@ select .time-year{
     color: #19456B;
     text-align: center;
     margin-top: 0px;
-}
+} */
 
 .strip{
     margin-top: 2px;
@@ -464,6 +487,257 @@ select-selected{
     font-weight: 600;
     font-size: 12px;
     color: #19456B;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+.time-option-box select.active-monthyear{
+    width: 90px;
+    height: 24px;
+    background: #19456B;
+    /* background: red; */
+    /* border: 1px solid red ; */
+}
+
+.option-year select.active-monthyear{
+    width: 90px;
+    height: 24px;
+    background: #19456B;
+    /* background: red; */
+    /* border: 1px solid red ; */
+}
+select.active-monthyear{
+    color: #FFFFFF;
+}
+
+
+select.active-monthyear>option {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #19456B;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* .time-option-box button.active-allyear{
+    width: 100px;
+    height: 27px;
+    background: #19456B;
+} */
+.time-option-box button.active-allyear{
+    width: 80px;
+    height: 24px;
+    background: #19456B;
+}
+
+
+/* button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+} */
+button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+button.active-allyear {
+    background: #19456B;
+    border: 1px solid #19456B ;
+}
+
+/* .time-option-box select.active-allyear{
+    width: 100px;
+    height: 27px;
+    background: #19456B;
+    color: #FFFFFF;
+} */
+.time-option-box select.active-allyear{
+    width: 80px;
+    height: 24px;
+    background: #19456B;
+    color: #FFFFFF;
+}
+
+
+/* select.active-allyear>option {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #19456B;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+} */
+select.active-allyear>option {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color:#19456B;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+}
+
+/* select.active-allyear {
+    background: #19456B;
+    border: 1px solid #19456B ;
+} */
+
+/* button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+} */
+
+
+
+
+
+/* ================ */
+
+/* .time-option-box button.active-allyear{
+    width: 100px;
+    height: 27px;
+    background: #19456B;
+} */
+.time-option-box button.active-allyear{
+    width: 80px;
+    height: 24px;
+    background: #19456B;
+}
+
+
+/* button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+} */
+button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+button.active-allyear {
+    background: #19456B;
+    border: 1px solid #19456B ;
+}
+
+/* .time-option-box select.active-allyear{
+    width: 100px;
+    height: 27px;
+    background: #19456B;
+    color: #FFFFFF;
+} */
+.time-option-box select.active-allyear{
+    width: 80px;
+    height: 24px;
+    background: #19456B;
+    color: #FFFFFF;
+}
+
+
+/* select.active-allyear>option {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #19456B;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+} */
+select.active-allyear>option {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color:#19456B;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+}
+
+/* select.active-allyear {
+    background: #19456B;
+    border: 1px solid #19456B ;
+} */
+
+/* button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+} */
+
+.time-allyear{
+    margin-top: 2px;
+    width: 80px;
+    height: 24px;
+    background: #ffffff;
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    color: #19456B;;
+    font-weight:700;
+}
+
+.text-allyear{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
     text-align: center;
     margin-top: 3px;
 }

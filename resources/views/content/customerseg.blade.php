@@ -56,7 +56,7 @@
             </div> --}}
 
             <div class="plot-display-box">
-                <button class="active-2">
+                <button class="active1">
                     <span>Distribution Plot</span>
                 </button>
                 <button>
@@ -78,10 +78,62 @@
 
             </div>
 
-            <div class="time-option-box">
-                <button class="time-allyear active">
+            <div class="time-option-box" id="time-option-box">
+                <button id="allyear" class="time-allyear active-allyear">
                     <span>All Year</span>
                     {{-- <h4 class="text-allyear">All Year</h4> --}}
+                </button>
+
+            <span class="span-strip">
+                <h3 class="strip">|</h3>
+            </span>
+
+            <div class="option-month">
+                <span class="option-month ">
+                    {{-- time-month --}}
+                    <select name="month" id="month" class="time-allyear  time-month">
+                        <option selected value="0" class="time-month">Month</option>
+                        <option value="1" >January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </span>
+            </div>
+
+            <div class="option-year">
+                <span class="option-year">
+
+                    <select name="month" id="year" class="time-allyear  time-year">
+                        <option selected value="0">Year</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                    </select>
+                </span>
+            </div>
+
+
+
+            <!-- <div class="time-month">
+                <h4 class="month">Month<span class="dropdown"><img src="assets/dropdown.png" alt=""></span></h4>
+
+            </div> -->
+            <!-- <div class="time-year">
+                <h4 class="year">Year<span class="dropdown"><img src="assets/dropdown.png" alt=""></span></h4>
+            </div> -->
+        </div>
+
+            {{-- <div class="time-option-box">
+                <button class="time-allyear active2" id="allyear-button">
+                    <span>All Year</span>
                 </button>
                 <span class="span-strip">
                     <h3 class="strip">|</h3>
@@ -105,21 +157,13 @@
                 </span>
 
                 <span class="option-year">
-                    <select name="month" id="month" class="time-year">
+                    <select name="month" id="year" class="time-month">
                         <option selected value="0">Year</option>
                         <option value="2010">2010</option>
                         <option value="2011">2011</option>
                     </select>
                 </span>
-
-                <!-- <div class="time-month">
-                    <h4 class="month">Month<span class="dropdown"><img src="assets/dropdown.png" alt=""></span></h4>
-
-                </div> -->
-                <!-- <div class="time-year">
-                    <h4 class="year">Year<span class="dropdown"><img src="assets/dropdown.png" alt=""></span></h4>
-                </div> -->
-            </div>
+            </div> --}}
 
             <div class="box-barchart">
                 <select name="barchart" id="barchart" class="barchart-option">

@@ -18,7 +18,6 @@
 
 .kotak-show {
     background: #FFFFFF;
-    /* background: #19456B; */
     border: 3px solid #19456B;
     border-radius: 35px 0px 0px 35px;
     height: 50px;
@@ -28,7 +27,6 @@
     display: flex;
     flex-direction: row;
     align-items: end;
-
 }
 
 /* .kotak-show:active {
@@ -199,7 +197,7 @@
     fill: #FFFFFF;
 }
 
-svg.active path{
+svg.active3 path{
     fill: #FFFFFF;
 }
 
@@ -215,3 +213,39 @@ svg.active path{
     border: 1px solid red;
 }
  */
+
+
+ .kiri-container button.active3 {
+    /* background: #FFFFFF; */
+    border: 3px solid #19456B;
+    border-radius: 35px 0px 0px 35px;
+    height: 50px;
+    width: 190px;
+    margin-left: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+button.active3  {
+    background: #19456B;
+    border: 1px solid #19456B ;
+}
+
+ button.active3>span {
+    /* border: 1px solid red; */
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    /* color: #19456B; */
+    color: #FFFFFF;
+    /* margin-left: 32px; */
+    /* margin-bottom: 10px; */
+    top: 0;
+ }
+
+ button.active3 path{
+    fill: #FFFFFF;
+ }

@@ -106,8 +106,164 @@ button.active>span {
 }
 
 
+/* ======================================== */
+/* .time-option-box button.active-allyear{
+    width: 100px;
+    height: 27px;
+    background: #19456B;
+} */
+.time-option-box button.active-allyear{
+    width: 80px;
+    height: 24px;
+    background: #19456B;
+}
+
+
+/* button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+} */
+button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+button.active-allyear {
+    background: #19456B;
+    border: 1px solid #19456B ;
+}
+
+/* .time-option-box select.active-allyear{
+    width: 100px;
+    height: 27px;
+    background: #19456B;
+    color: #FFFFFF;
+} */
+.time-option-box select.active-allyear{
+    width: 80px;
+    height: 24px;
+    background: #19456B;
+    color: #FFFFFF;
+}
+
+
+/* select.active-allyear>option {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #19456B;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+} */
+select.active-allyear>option {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color:#19456B;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+}
+
+/* select.active-allyear {
+    background: #19456B;
+    border: 1px solid #19456B ;
+} */
+
+/* button.active-allyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+} */
+
+
+/* ============================================= */
+
+
+/* .monthyear{
+    background: red;
+    background-color: red;
+} */
+
+
+/* ######################### */
+.time-option-box select.active-monthyear{
+    width: 90px;
+    height: 24px;
+    background: #19456B;
+    /* background: red; */
+    /* border: 1px solid red ; */
+}
+
+select.active-monthyear{
+    color: #FFFFFF;
+}
+
+
+select.active-monthyear>option {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #19456B;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* button.monthyear-allyear {
+    background: #19456B;
+    border: 1px solid #19456B ;
+} */
+
+/* select.active-monthyear>span {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 5px;
+} */
+
+/* .active-monthyear{
+    background-color: #19456B;
+    background: #19456B;
+    color: #FFFFFF;
+} */
+
+
+/* ############################# */
+
+
 /* =========== */
-.time-option-box button.active-1{
+.time-option-box button.active-2{
     width: 100px;
     height: 27px;
     background: #19456B;
@@ -193,16 +349,27 @@ button.active-2>span {
     gap: 10px;
 }
 
-.time-allyear{
+/* .time-allyear{
     width: 80px;
     height: 25px;
-    background: #19456B;
-    border: 1px solid #19456B ;
-    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    background: #ffff;
+    border: 1px solid #19456B;
     border-radius: 45px;
     text-align: center;
     align-items: center;
     margin-right: 3px;
+} */
+.time-allyear{
+    margin-top: 2px;
+    width: 80px;
+    height: 24px;
+    background: #ffffff;
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    color: #19456B;;
+    font-weight:700;
 }
 
 .text-allyear{
@@ -215,19 +382,33 @@ button.active-2>span {
     margin-top: 3px;
 }
 
-.time-month{
+/* .time-month{
     margin-top: 2px;
     width: 93px;
     height: 24px;
     background: #ffffff;
-    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
+    box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8);
     border: 2px solid #19456B ;
     border-radius: 45px;
     text-align: center;
     align-items: center;
     color: #19456B;;
     font-weight: bolder;
+} */
+.time-month{
+    margin-top: 2px;
+    width: 80px;
+    height: 24px;
+    background: #ffffff;
+    border: 2px solid #19456B ;
+    border-radius: 45px;
+    text-align: center;
+    align-items: center;
+    color: #19456B;;
+    font-weight:700;
 }
+
+
 /*
 .time-month select{
     margin-top: 2px;
@@ -278,13 +459,12 @@ button.active-2>span {
     width: 80px;
     height: 24px;
     background: #ffffff;
-    /* box-shadow: 3px 2px 5px rgba(25, 69, 107, 0.8); */
     border: 2px solid #19456B ;
     border-radius: 45px;
     text-align: center;
     align-items: center;
     color: #19456B;;
-    font-weight: bolder;
+    font-weight:700;
 
 
 
@@ -420,8 +600,4 @@ select-selected{
     height: 350px;
 }
 
-.monthyear{
-    width: 100px;
-    height: 26px;
-    background: #19456B;
-}
+/* x
