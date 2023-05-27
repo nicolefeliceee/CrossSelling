@@ -1,0 +1,48 @@
+.all-container{
+    /* position: relative; */
+    display: flex;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 505px;
+}
+
+
+
+/* ///////////// */
+
+.kanan-container{
+    /* border: 1px solid blue; */
+    /* width: 960px; */
+    width: 1200px;
+    height: 510px;
+    margin-left: 30px;
+    top: 0;
+    margin-top: 0px;
+}
+
+
+.box-content{
+    border: 1.5px solid #19456B;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: center ;
+    height: 484px;
+    margin-top: -10px;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.text-bundling{
+    margin-top: -3px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+
+    color: #19456B;
+
+
+}

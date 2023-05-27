@@ -1,0 +1,20 @@
+.box-title{
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 180px;
+}
+
+.main-title{
+    margin-top: -10px;
+    margin-bottom: 0px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 56px;
+    text-align: center;
+
+    color: #19456B;
+}
